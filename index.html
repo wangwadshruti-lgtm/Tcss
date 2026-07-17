@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnSphere — Enterprise Learning Platform</title>
+    <meta
+      name="description"
+      content="LearnSphere is a premium learning management experience designed for modern teams and ambitious learners."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#">
+          <span class="brand-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5Z" />
+              <path d="M8 8h8" />
+              <path d="M8 12h5" />
+              <path d="M8 16h3" />
+            </svg>
+          </span>
+          <span>LearnSphere</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#discover" class="nav-link">Explore Courses</a>
+          <a href="#learning" class="nav-link">My Learning</a>
+          <a href="#profile" class="nav-link">Profile</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="11" cy="11" r="6" />
+              <path d="m20 20-4.2-4.2" />
+            </svg>
+          </button>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="4.5" />
+              <path d="M12 2.5v2.5" />
+              <path d="M12 19v2.5" />
+              <path d="M4.5 4.5l1.8 1.8" />
+              <path d="M17.7 17.7l1.8 1.8" />
+              <path d="M2.5 12h2.5" />
+              <path d="M19 12h2.5" />
+              <path d="M4.5 19.5l1.8-1.8" />
+              <path d="M17.7 6.3l1.8-1.8" />
+            </svg>
+          </button>
+          <button class="avatar-button" aria-label="Profile avatar">
+            <span>AW</span>
+          </button>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#discover">Explore Courses</a>
+        <a href="#learning">My Learning</a>
+        <a href="#profile">Profile</a>
+      </div>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Enterprise learning, reimagined</p>
+            <h1>Turn every learning moment into measurable growth.</h1>
+            <p class="hero-text">
+              Deliver high-impact training, onboarding, and skill development with a calm,
+              premium experience that helps teams learn faster and stay aligned.
+            </p>
+            <div class="hero-actions">
+              <a href="#discover" class="btn btn-primary">Start learning</a>
+              <a href="#learning" class="btn btn-secondary">View roadmap</a>
+            </div>
+            <div class="hero-badges">
+              <span class="pill pill-success">+24% retention</span>
+              <span class="pill pill-neutral">Live cohorts</span>
+              <span class="pill pill-neutral">AI guidance</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card">
+              <div class="hero-orb orb-one"></div>
+              <div class="hero-orb orb-two"></div>
+              <div class="hero-panel">
+                <div class="panel-top">
+                  <span class="chip">Weekly focus</span>
+                  <span class="chip chip-purple">92%</span>
+                </div>
+                <div class="panel-metrics">
+                  <div>
+                    <strong>18 lessons</strong>
+                    <span>Completed this week</span>
+                  </div>
+                  <div>
+                    <strong>5.2 hrs</strong>
+                    <span>Learning time</span>
+                  </div>
+                </div>
+                <div class="mock-progress">
+                  <div class="progress-bar">
+                    <span></span>
+                  </div>
+                  <div class="progress-labels">
+                    <span>Strategy</span>
+                    <span>Design systems</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="learning">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>Learning performance at a glance</h2>
+            </div>
+            <a href="#" class="text-link">See all insights</a>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5Z" />
+                  <path d="M8 8h8" />
+                  <path d="M8 12h6" />
+                  <path d="M8 16h4" />
+                </svg>
+              </div>
+              <div>
+                <h3>24</h3>
+                <p>Active courses</p>
+              </div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M8 7h8" />
+                  <path d="M8 12h8" />
+                  <path d="M8 17h5" />
+                  <path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5Z" />
+                </svg>
+              </div>
+              <div>
+                <h3>87%</h3>
+                <p>Completion rate</p>
+              </div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M12 3 4 7v5c0 5 3.2 8.3 8 9 4.8-.7 8-4 8-9V7l-8-4Z" />
+                  <path d="m9.5 12 1.6 1.6 3.4-3.4" />
+                </svg>
+              </div>
+              <div>
+                <h3>1.2k</h3>
+                <p>Certificates earned</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="discover">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Discover</p>
+              <h2>Curated learning paths</h2>
+            </div>
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="11" cy="11" r="6" />
+                <path d="m20 20-4.2-4.2" />
+              </svg>
+              <input type="text" placeholder="Search courses" />
+            </div>
+          </div>
+
+          <div class="filter-row">
+            <button class="chip-button active">All</button>
+            <button class="chip-button">Design</button>
+            <button class="chip-button">Product</button>
+            <button class="chip-button">Leadership</button>
+            <button class="chip-button">Technology</button>
+          </div>
+
+          <div class="course-grid">
+            <article class="course-card">
+              <div class="course-thumb thumb-one"></div>
+              <div class="course-body">
+                <div class="card-topline">
+                  <span class="pill pill-success">In Progress</span>
+                  <span class="meta">8 lessons</span>
+                </div>
+                <h3>Design Systems for Modern SaaS</h3>
+                <p>Build high-confidence interfaces with scalable UI foundations and clearer product thinking.</p>
+                <div class="progress-row">
+                  <div class="progress-line"><span style="width: 72%"></span></div>
+                  <strong>72%</strong>
+                </div>
+                <a href="#" class="btn btn-primary small">Continue</a>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <div class="course-thumb thumb-two"></div>
+              <div class="course-body">
+                <div class="card-topline">
+                  <span class="pill pill-neutral">Not Started</span>
+                  <span class="meta">12 lessons</span>
+                </div>
+                <h3>Product Strategy Essentials</h3>
+                <p>Lead with clarity through strategic framing, roadmap decisions, and executive storytelling.</p>
+                <div class="progress-row">
+                  <div class="progress-line"><span style="width: 18%"></span></div>
+                  <strong>18%</strong>
+                </div>
+                <a href="#" class="btn btn-secondary small">Start course</a>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <div class="course-thumb thumb-three"></div>
+              <div class="course-body">
+                <div class="card-topline">
+                  <span class="pill pill-success">Completed</span>
+                  <span class="meta">6 lessons</span>
+                </div>
+                <h3>Executive Communication Mastery</h3>
+                <p>Sharpen presentations, stakeholder influence, and confident decision-making in complex teams.</p>
+                <div class="progress-row">
+                  <div class="progress-line"><span style="width: 100%"></span></div>
+                  <strong>100%</strong>
+                </div>
+                <a href="#" class="btn btn-primary small">Review</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section plan-section" id="profile">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Next milestone</p>
+              <h2>Your featured learning plan</h2>
+            </div>
+          </div>
+
+          <div class="plan-card">
+            <div>
+              <p class="eyebrow">Leadership sprint</p>
+              <h3>Build executive presence in 4 weeks</h3>
+              <p>
+                A guided experience combining communication, strategic thinking, and systems fluency for ambitious leaders.
+              </p>
+            </div>
+            <div class="plan-meta">
+              <div>
+                <strong>4 weeks</strong>
+                <span>Duration</span>
+              </div>
+              <div>
+                <strong>3 sessions</strong>
+                <span>Remaining</span>
+              </div>
+              <a href="#" class="btn btn-primary small">Join sprint</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>LearnSphere © 2026 · Built for modern teams and thoughtful learners.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
